@@ -105,13 +105,13 @@ build_tree(array)
 root = Node.root # !> assigned but unused variable - root
 breadth_first_search(444) # => nil
 breadth_first_search(67).value # => 67
-breadth_first_search(67).object_id # => 70363472368660
+breadth_first_search(67).object_id # => 70336432395160
 depth_first_search(444) # => nil
 depth_first_search(67).value # => 67
-depth_first_search(67).object_id # => 70363472368660
+depth_first_search(67).object_id # => 70336432395160
 dfs_rec(444) # => nil
 dfs_rec(67).value # => 67
-dfs_rec(67).object_id # => 70363472368660
+dfs_rec(67).object_id # => 70336432395160
 
 
 
